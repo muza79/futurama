@@ -1,0 +1,58 @@
+.character-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #b2d8de; 
+    box-shadow: 5px 5px 5px #d7d4d4;
+    margin-top: 1rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+  }
+  .character-container:hover {
+    cursor: pointer;
+  }
+  @media (max-width: 1024px) {
+    .character-container {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 500px) {
+    .character-container {
+        font-size: .8rem;
+    }
+}
+  
+  .character-picture-container {
+    display: block;
+    width: 10%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 15% 0 0 0;
+    margin-right: .5rem;
+  }
+  .character-picture {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .character-name {
+    width: 20%;
+    margin-right: .5rem;
+    font-weight: 500;
+  }
+  .character-name p {
+    text-overflow: clip;
+  }
+  .character-quote {
+    width: 70%;
+  }
+  .character-click-more{
+    font-size: .7rem;
+  }
